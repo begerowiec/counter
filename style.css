@@ -1,7 +1,9 @@
 body {
   background-image: url("img/element5-digital-MEzqoN8p6C0-unsplash.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
 }
 
 h1 {
@@ -15,6 +17,7 @@ h1 {
   justify-content: center;
   background-color: black;
   text-align: center;
+  flex-wrap: wrap;
 }
 .big-text{
   margin: 0 3rem;
