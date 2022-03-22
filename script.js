@@ -1,4 +1,4 @@
-const date = "03 Apr 2022 17:00";
+const date = "23 Mar 2022 00:27";
 
 const daysEl = document.getElementById("day");
 const hoursEl = document.getElementById("hour");
@@ -9,7 +9,7 @@ function count() {
   const newdate = new Date(date);
   const currentdate = new Date();
   const totalSeconds = (newdate - currentdate) / 1000;
-  if(totalSeconds > 0 ){
+  if (totalSeconds > 0) {
     const sec = Math.floor(totalSeconds) % 60;
     const mins = Math.floor(totalSeconds / 60) % 60;
     const hours = Math.floor(totalSeconds / 3600) % 24;
@@ -19,7 +19,7 @@ function count() {
     hoursEl.innerHTML = formatTime(hours);
     minsEl.innerHTML = formatTime(mins);
     secEl.innerHTML = formatTime(sec);
-    }
+  }
 }
 
 function formatTime(time) {
