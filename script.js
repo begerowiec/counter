@@ -1,4 +1,4 @@
-const date = "23 Mar 2022 00:27";
+const date = "24 Mar 2022 00:27";
 
 const daysEl = document.getElementById("day");
 const hoursEl = document.getElementById("hour");
